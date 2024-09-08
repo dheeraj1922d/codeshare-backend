@@ -8,7 +8,7 @@ const app = express();
 
 // CORS middleware for Express
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "https://codeshare-frontend-dun.vercel.app/",
   methods: ["GET", "POST"],
 }));
 
